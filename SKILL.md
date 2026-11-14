@@ -1,41 +1,41 @@
 ---
-name: crea-playlist
-description: Crea playlist musicali su misura in base a gusti, artisti, anni e occasione; usa Spotify se collegato, altrimenti produce un elenco da importare su qualsiasi piattaforma.
+name: playlist-builder
+description: Build custom music playlists from the user's taste, artists, years and occasion; creates it on Spotify if connected, otherwise outputs a list that can be imported on any platform.
 ---
 
-# Crea playlist musicale
+# Playlist builder
 
-Usa questa skill quando l'utente chiede una playlist, una selezione di brani o "qualcosa da ascoltare" in base ai suoi gusti.
+Use this skill when the user asks for a playlist, a selection of tracks, or "something to listen to" based on their taste.
 
-## 1. Raccogli i gusti
-Servono, se non già detti nella conversazione:
-- 3-5 artisti o cantanti che ama
-- generi e anni o decenni preferiti
-- occasione o mood (studio, allenamento, viaggio, serata)
-- lunghezza (numero di brani o durata)
-- piattaforma che usa (Spotify, Apple Music, YouTube Music, altro)
-- cosa evitare (brani già sentiti, esplicito, certi generi)
+## 1. Gather the taste
+Collect the following, unless it is already clear from the conversation:
+- 3-5 artists or bands they love
+- genres and preferred years or decades
+- occasion or mood (studying, workout, road trip, night out)
+- length (number of tracks or duration)
+- platform they use (Spotify, Apple Music, YouTube Music, other)
+- what to avoid (tracks they already know, explicit content, certain genres)
 
-Chiedi solo ciò che manca, in un unico messaggio breve. Non dedurre gusti che l'utente non ha dichiarato.
+Ask only for what is missing, in a single short message. Do not assume tastes the user has not stated.
 
-## 2. Costruisci la selezione
-- Circa il 60-70% in linea con gli artisti indicati, il resto scoperte affini dello stesso periodo o genere.
-- Rispetta gli anni richiesti; segnala le eccezioni.
-- Al massimo 2-3 brani per artista, salvo richiesta diversa; niente duplicati.
-- Ordina per flusso: alterna energia, evita sbalzi bruschi tra brani vicini.
+## 2. Build the selection
+- Around 60-70% in line with the artists they named, the rest related discoveries from the same period or genre.
+- Respect the requested years; flag any exceptions.
+- At most 2-3 tracks per artist unless asked otherwise; no duplicates.
+- Order for flow: alternate energy levels and avoid abrupt jumps between neighbouring tracks.
 
-## 3. Verifica prima di consegnare
-- Non inventare brani, album o anni. Se non sei sicuro che un brano esista, non inserirlo o segnalalo come incerto.
-- Se è disponibile un connettore musicale (per esempio Spotify), cerca ogni brano e usa solo quelli trovati; sostituisci quelli mancanti.
+## 3. Verify before delivering
+- Never invent tracks, albums or years. If you are not sure a track exists, leave it out or mark it as uncertain.
+- If a music connector is available (for example Spotify), search for every track and use only the ones found; replace any that are missing.
 
-## 4. Consegna
-- Con un connettore che permette di creare playlist: creala con un nome breve e una descrizione, e dai il link.
-- Senza connettore: elenco numerato nel formato `Artista - Titolo (anno)`, con una riga sul perché di ogni scelta, e spiega come importarlo (copia e incolla, oppure app di terze parti che importano un elenco).
+## 4. Deliver
+- With a connector that can create playlists: create the playlist with a short name and description, and share the link.
+- Without a connector: give a numbered list in the format `Artist - Title (year)`, with one line on why each track was chosen, and explain how to import it (copy and paste, or third-party apps that import a list).
 
-## 5. Affina
-Chiedi se è troppo nota, troppo lenta o troppo simile, e proponi una variante.
+## 5. Refine
+Ask whether it is too well known, too slow or too similar, and offer a variant.
 
-## Regole
-- Rispondi in italiano salvo diversa richiesta.
-- Non riprodurre testi di canzoni: descrivi il brano, non citarlo.
-- Se l'utente non conosce un artista, spiega in una riga perché lo hai incluso.
+## Rules
+- Reply in the language the user writes in.
+- Do not reproduce song lyrics: describe the track, do not quote it.
+- If the user does not know an artist, explain in one line why you included them.

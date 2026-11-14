@@ -1,31 +1,27 @@
-# crea-playlist
+# playlist-builder-skill
 
-Una skill per Claude che crea playlist musicali su misura a partire da **artisti, anni, generi e occasione**.
+A Claude skill that builds custom playlists from your **artists, years, genres and occasion**.
 
-- Se hai collegato **Spotify**, cerca ogni brano e crea la playlist direttamente, dandoti il link.
-- Altrimenti produce un elenco `Artista - Titolo (anno)` che puoi importare su qualsiasi piattaforma (Apple Music, YouTube Music, ecc.) con copia e incolla o con un'app di importazione.
-- Non inventa brani: se non è sicura che esistano, li scarta o li segnala come incerti.
+- If you have connected **Spotify**, it looks up every track and creates the playlist directly, then gives you the link.
+- Otherwise it outputs an `Artist - Title (year)` list you can import on any platform (Apple Music, YouTube Music, etc.) by copy and paste or with an import app.
+- It never invents tracks: if it is not sure a track exists, it leaves it out or flags it as uncertain.
 
-## Installazione
+## Installation
 
-1. Scarica questa cartella (o clona il repository).
-2. In Claude vai nelle impostazioni delle skill e carica la cartella `crea-playlist` (oppure incolla il contenuto di `SKILL.md` in una nuova skill).
-3. Facoltativo: collega il connettore Spotify per creare le playlist in automatico.
+1. Download this repository (or clone it).
+2. In Claude, open the skills settings and upload the repository folder, or paste the contents of `SKILL.md` into a new skill.
+3. Optional: connect the Spotify connector so playlists are created automatically.
 
-## Esempio d'uso
+## Example
 
-> Fammi una playlist per studiare: mi piacciono Fabrizio De André, Lucio Dalla e Battiato, soprattutto anni '70 e '80, circa 25 brani.
+> Build me a study playlist: I like Pink Floyd, Radiohead and Nick Drake, mostly from the 70s and 90s, about 25 tracks.
 
-Claude chiede solo ciò che manca, costruisce la selezione, la verifica e te la consegna.
+Claude asks only for what is missing, builds the selection, checks it and hands it over.
 
-## Licenza
+## Languages
 
-MIT, vedi `LICENSE`.
+The skill replies in the language you write in.
 
----
+## License
 
-## English
-
-A Claude skill that builds custom playlists from your **artists, years, genres and occasion**. It creates the playlist on Spotify if the connector is available; otherwise it outputs an `Artist - Title (year)` list you can import anywhere. It never invents tracks. The skill instructions are written in Italian and answer in Italian by default.
-
-**Install:** download this folder and upload `crea-playlist` as a skill in Claude, or paste the contents of `SKILL.md` into a new skill.
+MIT, see `LICENSE`.
