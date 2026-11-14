@@ -17,6 +17,7 @@ A [Claude](https://claude.ai) skill that builds custom playlists from your **art
 
 - **Built around you**: starts from the artists and years you love, then adds related discoveries so it is not just a copy of your library.
 - **Spotify or anywhere else**: with the Spotify connector it creates the playlist and gives you the link. Without it, you get a clean `Artist - Title (year)` list to import on Apple Music, YouTube Music, Deezer and more.
+- **Researched, not guessed**: before choosing, it checks which tracks work best for your occasion and years. If you say "club", it looks at what actually works in clubs, for each of your artists and for the era you picked.
 - **Verified, never invented**: every track is looked up when a connector is available, and anything uncertain is dropped or flagged.
 - **Flows like a playlist should**: ordered for energy and mood, with at most 2-3 tracks per artist.
 - **Explains itself**: one line on why each track is there, so you can find new artists you would otherwise skip.
@@ -26,9 +27,10 @@ A [Claude](https://claude.ai) skill that builds custom playlists from your **art
 | Step | What happens |
 | --- | --- |
 | **1. Tell** | Share 3-5 artists, the years or genres you like, the occasion and the length. Claude only asks for what is missing. |
-| **2. Build** | About 60-70% of the set follows your artists, the rest are related finds from the same era or style. |
-| **3. Check** | Every track is verified. On Spotify, only tracks that really exist end up in the playlist. |
-| **4. Play** | You get the playlist link, or a list you can import anywhere. Then tweak it: "less slow", "more 90s". |
+| **2. Research** | Before picking anything, it checks which tracks of your artists perform best in your context (club, workout, road trip...) and in your years. |
+| **3. Build** | About 60-70% of the set follows your artists, the rest are related finds that fit the same context and era. |
+| **4. Check** | Every track is verified. On Spotify, only tracks that really exist end up in the playlist. |
+| **5. Play** | You get the playlist link, or a list you can import anywhere. Then tweak it: "less slow", "more 90s". |
 
 ## Example
 
