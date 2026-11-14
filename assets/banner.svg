@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#241047"/>
+      <stop offset="1" stop-color="#5b1a6e"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+  <circle cx="1180" cy="60" r="150" fill="#f472b6" opacity="0.07"/>
+  <circle cx="90" cy="360" r="120" fill="#22d3ee" opacity="0.06"/>
+  
+  <rect x="720" y="110" width="22" height="200" rx="11" fill="url(#bar)" opacity="0.55"/><rect x="752" y="88" width="22" height="244" rx="11" fill="url(#bar)" opacity="0.58"/><rect x="784" y="82" width="22" height="256" rx="11" fill="url(#bar)" opacity="0.60"/><rect x="816" y="95" width="22" height="230" rx="11" fill="url(#bar)" opacity="0.63"/><rect x="848" y="122" width="22" height="176" rx="11" fill="url(#bar)" opacity="0.66"/><rect x="880" y="130" width="22" height="160" rx="11" fill="url(#bar)" opacity="0.68"/><rect x="912" y="106" width="22" height="209" rx="11" fill="url(#bar)" opacity="0.71"/><rect x="944" y="95" width="22" height="230" rx="11" fill="url(#bar)" opacity="0.74"/><rect x="976" y="100" width="22" height="220" rx="11" fill="url(#bar)" opacity="0.76"/><rect x="1008" y="116" width="22" height="187" rx="11" fill="url(#bar)" opacity="0.79"/><rect x="1040" y="136" width="22" height="148" rx="11" fill="url(#bar)" opacity="0.81"/><rect x="1072" y="132" width="22" height="156" rx="11" fill="url(#bar)" opacity="0.84"/><rect x="1104" y="124" width="22" height="172" rx="11" fill="url(#bar)" opacity="0.87"/><rect x="1136" y="124" width="22" height="173" rx="11" fill="url(#bar)" opacity="0.89"/><rect x="1168" y="128" width="22" height="164" rx="11" fill="url(#bar)" opacity="0.92"/><rect x="1200" y="134" width="22" height="151" rx="11" fill="url(#bar)" opacity="0.95"/><rect x="1232" y="142" width="22" height="137" rx="11" fill="url(#bar)" opacity="0.97"/>
+  <g transform="translate(80,78)">
+    <rect width="64" height="64" rx="18" fill="#ffffff" opacity="0.1"/>
+    <path d="M26 20 L26 44 L46 32 Z" fill="#ffffff"/>
+  </g>
+  <text x="80" y="214" font-family="Poppins, Inter, sans-serif" font-weight="700" font-size="68" fill="url(#title)">playlist-builder</text>
+  <text x="82" y="270" font-family="Inter, sans-serif" font-weight="500" font-size="26" fill="#ddd6fe">Your taste in. A playlist out.</text>
+  <text x="82" y="320" font-family="Inter, sans-serif" font-weight="400" font-size="20" fill="#a5b4fc">A Claude skill · artists, years, mood → Spotify or any platform</text>
+</svg>
